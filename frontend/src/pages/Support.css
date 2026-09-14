@@ -1,0 +1,122 @@
+.support-page {
+  min-height: 100vh;
+  background: #f7f1e8;
+  color: #55352a;
+}
+
+.support-hero {
+  padding: 90px 6%;
+  text-align: center;
+  background: #ead8c5;
+}
+
+.support-small-title {
+  margin: 0 0 12px;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #8b451f;
+}
+
+.support-hero h1 {
+  margin: 0 0 12px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.support-hero p:last-child {
+  margin: 0;
+  color: #765c50;
+  font-size: 16px;
+}
+
+.support-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 6%;
+}
+
+.support-intro {
+  max-width: 650px;
+  margin-bottom: 55px;
+}
+
+.support-label {
+  margin: 0 0 15px;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  color: #8b451f;
+}
+
+.support-intro h2 {
+  margin: 0 0 20px;
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.support-intro p:last-child {
+  margin: 0;
+  color: #765c50;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.support-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.support-card {
+  padding: 30px;
+  background: white;
+  border: 1px solid #dfcdb9;
+}
+
+.support-card > span {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #8b451f;
+}
+
+.support-card h3 {
+  margin: 15px 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.support-card p {
+  margin: 0 0 25px;
+  color: #765c50;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.support-card a {
+  color: #8b451f;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.support-card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .support-hero {
+    padding: 70px 20px;
+  }
+
+  .support-hero h1 {
+    font-size: 38px;
+  }
+
+  .support-content {
+    padding: 60px 20px;
+  }
+
+  .support-options {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,154 @@
+.admin-page {
+  min-height: 100vh;
+  padding: 50px 6%;
+  background: #f7f1e8;
+  color: #3b2118;
+}
+
+.admin-header {
+  margin-bottom: 35px;
+}
+
+.admin-small-title {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #8b451f;
+  margin-bottom: 8px;
+}
+
+.admin-header h1 {
+  font-size: 42px;
+  margin: 0 0 8px;
+  color: #55352a;
+}
+
+.admin-header p {
+  color: #765c50;
+}
+
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.admin-stat-card {
+  background: white;
+  padding: 25px;
+  border: 1px solid #dfcdb9;
+}
+
+.admin-stat-card span {
+  display: block;
+  font-size: 14px;
+  color: #765c50;
+  margin-bottom: 12px;
+}
+
+.admin-stat-card strong {
+  font-size: 28px;
+  color: #55352a;
+}
+
+.admin-orders {
+  background: white;
+  padding: 30px;
+  border: 1px solid #dfcdb9;
+}
+
+.admin-section-header {
+  margin-bottom: 25px;
+}
+
+.admin-section-header h2 {
+  margin: 0 0 5px;
+  color: #55352a;
+}
+
+.admin-section-header p {
+  margin: 0;
+  color: #765c50;
+  font-size: 14px;
+}
+
+.orders-table-wrapper {
+  overflow-x: auto;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.orders-table th {
+  text-align: left;
+  padding: 15px;
+  background: #f7f1e8;
+  color: #55352a;
+  font-weight: 600;
+}
+
+.orders-table td {
+  padding: 18px 15px;
+  border-bottom: 1px solid #eadfd4;
+  vertical-align: top;
+}
+
+.orders-table td strong {
+  display: block;
+  color: #55352a;
+}
+
+.orders-table td small {
+  display: block;
+  color: #765c50;
+  margin-top: 4px;
+}
+
+.order-status-select {
+  padding: 7px 12px;
+  border: 1px solid #c1a480;
+  border-radius: 20px;
+  background: #ead8c5;
+  color: #6b3c25;
+  font-family: Georgia, serif;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.order-status-select:focus {
+  border-color: #8b451f;
+}
+
+.admin-message {
+  padding: 30px 0;
+  text-align: center;
+  color: #765c50;
+}
+
+@media (max-width: 900px) {
+  .admin-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .admin-page {
+    padding: 30px 20px;
+  }
+
+  .admin-header h1 {
+    font-size: 32px;
+  }
+
+  .admin-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-orders {
+    padding: 20px;
+  }
+}
