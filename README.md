@@ -4,6 +4,47 @@ Almira is a full-stack e-commerce fashion website inspired by South Asian tradit
 
 It also includes an admin dashboard where store orders can be viewed and their status can be updated.
 
+---
+
+## Screenshots
+
+### Homepage :
+
+![Almira Homepage](Screenshots/homepage.png)
+
+<br>
+
+### Shop :
+
+![Almira Shop](Screenshots/shop.png)
+
+<br>
+
+### Product Details :
+
+![Product Details](Screenshots/product.png)
+
+<br>
+
+### Shopping Cart :
+
+![Shopping Cart](Screenshots/cart.png)
+
+<br>
+
+### Checkout :
+
+![Checkout](Screenshots/checkout.png)
+
+<br>
+
+### Admin Dashboard :
+
+![Admin Dashboard](Screenshots/admin-dashboard.png)
+
+
+---
+
 ## Features
 
 ### Customer Side
@@ -31,6 +72,8 @@ It also includes an admin dashboard where store orders can be viewed and their s
 * Order status management
 * Order status updates saved to MongoDB
 
+---
+
 ## Product Categories
 
 Almira currently includes:
@@ -39,6 +82,8 @@ Almira currently includes:
 * Long Kurtis
 * Co-ord Sets
 * Anarkali Sets
+
+---
 
 ## Technologies Used
 
@@ -64,6 +109,8 @@ Almira currently includes:
 
 * MongoDB Atlas
 
+---
+
 ## How It Works
 
 The basic order flow is:
@@ -85,6 +132,8 @@ Order is stored in MongoDB
 Confirmation email is sent
 ↓
 Order appears in the Admin Dashboard
+
+---
 
 ## Project Structure
 
@@ -118,6 +167,8 @@ Almira/
 │
 └── .gitignore
 ```
+
+---
 
 ## Getting Started
 
@@ -233,6 +284,8 @@ Order statuses can be changed between:
 
 The updated status is saved to MongoDB.
 
+---
+
 ## Customer Authentication
 
 Almira includes a simple customer login and registration system for demonstration purposes.
@@ -240,6 +293,8 @@ Almira includes a simple customer login and registration system for demonstratio
 Customer account information is stored using browser `localStorage`.
 
 This implementation is intended for a college project/demo and is **not production-level authentication**. A production application would use secure password hashing, authentication tokens or sessions, and a dedicated user database.
+
+---
 
 ## Order Confirmation Email
 
@@ -257,6 +312,8 @@ The email includes:
 * Phone number
 * Delivery address
 * City
+
+---
 
 ## Security
 
@@ -277,6 +334,8 @@ The current version includes the main customer shopping flow, order management, 
 
 This project was created as a learning and academic project to understand how a full-stack e-commerce application works.
 
+---
+
 ## Future Improvements
 
 Possible future improvements include:
@@ -291,6 +350,8 @@ Possible future improvements include:
 * Customer reviews and ratings
 * Improved admin analytics
 * Deployment to a production environment
+
+---
 
 ## Author
 
